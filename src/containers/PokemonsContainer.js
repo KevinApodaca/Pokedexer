@@ -4,7 +4,7 @@ import {GET_POKEMONS } from '../graphQL/get-pokemons';
 import {Pokemon } from '../components/Pokemon';
 export function PokemonsContainer() {
   const { data: { pokemons = [] } = {} } = useQuery(GET_POKEMONS, {
-    variables: {first: 54 },
+    variables: {first: 79 },
   });
 
   return (
